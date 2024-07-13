@@ -1,2 +1,2 @@
 # Book-Pavilion
-小说阅读器
+基于Qt开发的小说阅读器
