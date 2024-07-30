@@ -7,7 +7,7 @@ QT       +=serialport
 
 QT       += core gui
 
-QT      +=sql
+QT      +=core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -30,10 +30,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        widget.cpp
+        widget.cpp \
+    signup.cpp
 
 HEADERS += \
-        widget.h
+        widget.h \
+    signup.h
 
 FORMS += \
-        widget.ui
+        widget.ui \
+    signup.ui
