@@ -9,6 +9,8 @@ QT       += core gui
 
 QT      +=core gui sql
 
+QT  +=network
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG+=c++11
@@ -31,12 +33,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         widget.cpp \
-    signup.cpp
+    signup.cpp \
+    smtp.cpp
 
 HEADERS += \
         widget.h \
-    signup.h
+    signup.h \
+    smtp.h
 
 FORMS += \
         widget.ui \
     signup.ui
+
+RESOURCES += \
+    picture.qrc

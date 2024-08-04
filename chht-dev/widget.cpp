@@ -7,6 +7,7 @@
 #include<QDialog>
 #include"signup.h"
 #include<QSqlQuery>//数据库执行语句
+#include<QLineEdit>
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
@@ -20,7 +21,10 @@ Widget::Widget(QWidget *parent) :
         ui->Password->setEchoMode(x?QLineEdit::Normal:QLineEdit::Password);
     });
     connect(ui->exit, SIGNAL(clicked(bool)), this, SLOT(close()));//PutButton退出
-
+    //改变边框样式
+   ui->Person->setStyleSheet("border: 1px solid gray;border-radius: 4px;");
+   ui->Password->setStyleSheet("border: 1px solid gray;border-radius: 4px;");
+   ui->show->setStyleSheet("border-radius: 4px;");//圆角
 }
 
 Widget::~Widget()
