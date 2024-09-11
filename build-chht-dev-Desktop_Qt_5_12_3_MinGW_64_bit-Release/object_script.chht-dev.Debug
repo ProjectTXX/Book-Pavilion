@@ -1,0 +1,11 @@
+debug/main.o
+debug/widget.o
+debug/signup.o
+debug/smtp.o
+debug/success.o
+debug/window.o
+debug/qrc_picture.o
+debug/moc_widget.o
+debug/moc_signup.o
+debug/moc_success.o
+debug/moc_window.o

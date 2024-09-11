@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include<QString>
+#include"window.h"
+#include"success.h"
 
 namespace Ui {
 class Widget;

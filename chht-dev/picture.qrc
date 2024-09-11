@@ -1,7 +1,19 @@
 <RCC>
-    <qresource prefix="/new/prefix1">
-        <file>D:/ppt图片/qtpixmas[p/01ca5d5d4ae49ea80120695c3db0b8.jpg@2o.jpg</file>
-        <file>D:/ppt图片/qtpixmas[p/01e10f5c35d2bca8012090db903eee.jpg@1280w_1l_2o_100sh.jpg</file>
-        <file>D:/ppt图片/qtpixmas[p/138759-tian_kong-fei_e_he_hu_die-kun_chong-shui_shang-lu_se_de-3840x2160.jpg</file>
+    <qresource prefix="/">
+        <file>D:/picture/9563fe5afcea4527baab2a527d322cde.png</file>
+        <file>D:/picture/d080692ca45c4677a618dc6fab1fa747.png</file>
+        <file>D:/picture/e0a07cd80e09495ea59e715ad48eee7a.png</file>
+        <file>D:/picture/e1adffab05134d57a63960da867f80c5.png</file>
+        <file>D:/picture/e8fdcf8afd36452184c1c2e39ec178cf.png</file>
+        <file>D:/picture/e494f5a5082948c3bdbf348e1703bcb6.png</file>
+        <file>D:/picture/f58832cf01bd4177a00fbd0e2ebf7d6a (1).png</file>
+        <file>../../../picture/2.jpg</file>
+        <file>../../../picture/3.jpg</file>
+        <file>../../../picture/4.jpg</file>
+        <file>../../../picture/5.jpg</file>
+        <file>../../../picture/7.jpg</file>
+        <file>../../../picture/8.jpg</file>
+        <file>../../../picture/9.jpg</file>
+        <file>../../../picture/10.jpg</file>
     </qresource>
 </RCC>

@@ -8,7 +8,7 @@ QT       +=serialport
 QT       += core gui
 
 QT      +=core gui sql
-
+QT +=multimedia
 QT  +=network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -34,16 +34,36 @@ SOURCES += \
         main.cpp \
         widget.cpp \
     signup.cpp \
-    smtp.cpp
+    smtp.cpp \
+    success.cpp \
+    window.cpp
 
 HEADERS += \
         widget.h \
     signup.h \
-    smtp.h
+    smtp.h \
+    success.h \
+    window.h
 
 FORMS += \
         widget.ui \
-    signup.ui
+    signup.ui \
+    success.ui \
+    window.ui
 
 RESOURCES += \
+    picture.qrc \
     picture.qrc
+
+DISTFILES += \
+    ../../../picture/2.jpg \
+    ../../../picture/3.jpg \
+    ../../../picture/4.jpg \
+    ../../../picture/5.jpg \
+    ../../../picture/7.jpg \
+    D:/picture/9563fe5afcea4527baab2a527d322cde.png \
+    D:/picture/d080692ca45c4677a618dc6fab1fa747.png \
+    D:/picture/e0a07cd80e09495ea59e715ad48eee7a.png \
+    D:/picture/e1adffab05134d57a63960da867f80c5.png \
+    D:/picture/e494f5a5082948c3bdbf348e1703bcb6.png \
+    D:/picture/e8fdcf8afd36452184c1c2e39ec178cf.png

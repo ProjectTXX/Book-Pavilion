@@ -68,12 +68,13 @@ void Widget::on_Login_clicked()//登录操作
 
             //登录之后跳转页面
 
+            this->hide();
+           Window *w=new Window;
+            w->show();
+            /*Success *ms=new Success;
+            ms->show();*/
 
 
-
-
-            //关闭该界面
-            this->close();
 
 
         }

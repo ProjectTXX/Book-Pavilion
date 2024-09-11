@@ -1,0 +1,11 @@
+release/main.o
+release/widget.o
+release/signup.o
+release/smtp.o
+release/success.o
+release/window.o
+release/qrc_picture.o
+release/moc_widget.o
+release/moc_signup.o
+release/moc_success.o
+release/moc_window.o
